@@ -8,8 +8,8 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    username: 'test',
-    firstName: 'Andy',
+    username: 'Real',
+    firstName: 'Andddy',
     lastName: 'Yoon',
     dogs: [
       { name: "lucky", breed: "poodle", age: 1 },

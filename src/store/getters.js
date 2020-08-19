@@ -7,6 +7,9 @@ export default {
     return getters.poodles.filter(dog => dog.age === age)
   },
 
-  fullName: (state) => `${state.firstName} ${state.lastName}`
+  fullName: (state) => {
+    console.log('??????/*/**/*/')
+    return `${state.firstName} ${state.lastName}`
+  }
 
 }
