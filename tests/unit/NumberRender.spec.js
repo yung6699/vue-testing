@@ -8,6 +8,10 @@ describe('Greeting.vue', () => {
     });
 
     expect(wrapper.text()).toBe("2, 4, 6, 8");
+    expect(wrapper.vm.numbers).toBe("2, 4, 6, 8");
+    expect(wrapper.vm.numbersFn()).toBe("2, 4, 6, 8");
+    console.log(wrapper.vm.numbers)
+    console.log(wrapper.vm.numbersFn())
   })
 
   it('홀수를 렌더링 한다.', () => {
