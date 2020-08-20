@@ -8,7 +8,6 @@ export default {
   },
 
   fullName: (state) => {
-    console.log('??????/*/**/*/')
     return `${state.firstName} ${state.lastName}`
   }
 
